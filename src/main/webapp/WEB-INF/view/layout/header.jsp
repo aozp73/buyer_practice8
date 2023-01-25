@@ -22,7 +22,7 @@
     
                <c:otherwise>
                 <li><a href="/">상품목록</a></li>
-                <li><a href="/">구매목록</a></li>
+                <li><a href="/purchase">구매목록</a></li>
                 <li><a href="/logout">로그아웃</a></li>  
                </c:otherwise>
             </c:choose>
