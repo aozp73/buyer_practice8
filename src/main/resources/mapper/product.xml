@@ -13,7 +13,7 @@
   </select>
 
   <select id="findById" resultType="shop.mtcoding.buyer10.model.Product">
-    select * from product_tb where id #{id}
+    select * from product_tb where id = #{id}
   </select>
 
   <update id="updateById">
